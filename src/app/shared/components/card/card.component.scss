@@ -1,0 +1,28 @@
+.card-content {
+  border: 1px solid #eaeaea;
+  width: 300px;
+  padding: 10px;
+  border-radius: 8px;
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: orange;
+
+  &__header {
+    font-weight: normal;
+    color: rgb(105, 105, 105);
+    b {
+      font-weight: bold;
+      color: #000;
+    }
+  }
+
+  &__body {
+    font-weight: normal;
+    color: rgb(105, 105, 105);
+
+    b {
+      font-weight: bold;
+      color: #000;
+    }
+  }
+}
